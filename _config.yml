@@ -100,10 +100,15 @@ theme: redefine
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+# deploy:
+#   type: git
+#   #repository: git clone git@github.com:Aurora-fang/Aurora-fang.github.io.git
+#   #repo: https://github.com/Aurora-fang/Aurora-fang.github.io
+#   repo: git@github.com:Aurora-fang/Aurora-fang.github.io.git
+#   branch: main
+#   #message: 'Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }} by mac in lab 330 '
+
 deploy:
   type: git
-  #repository: git clone git@github.com:Aurora-fang/Aurora-fang.github.io.git
-  #repo: https://github.com/Aurora-fang/Aurora-fang.github.io
   repo: git@github.com:Aurora-fang/Aurora-fang.github.io.git
-  branch: main
-  #message: 'Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }} by mac in lab 330 '
+  branch: gh-pages
